@@ -11,17 +11,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cli-table3": "^0.6.2",
-    "commander": "^9.1.0",
-    "debug": "^4.3.4",
-    "esbuild": "^0.14.27",
-    "esbuild-register": "^3.3.2",
-    "node-fetch": "^3.2.4",
-    "read": "^1.0.7",
-    "simple-git": "^3.7.1",
-    "yaml": "^2.0.0",
-    "zod": "^3.14.4"
-  }
+  "license": "ISC"
 }
