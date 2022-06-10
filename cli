@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+/**
+ * Entrypoint for base cli. Uses esbuild-register to run typescript
+ * files directly, such that we do not need to check compiled files
+ * into git or publish built package somewhere.
+ */
+
+ require('esbuild-register/dist/node').register();
+ require('./cli.ts');
