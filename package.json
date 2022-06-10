@@ -2,6 +2,7 @@
   "name": "@arve0/esbuild-register-syntaxerror",
   "version": "1.0.1",
   "description": "esbuild-register fails when installed globally",
+  "homepage": "https://github.com/arve0/esbuild-register-syntaxerror",
   "bin": {
     "esbuild-cli": "./cli"
   },

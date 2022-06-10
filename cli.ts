@@ -6,6 +6,9 @@ import read from "read";
 import simpleGit from "simple-git";
 import yaml from "yaml";
 import zod from "zod";
+import pkg from "./package.json";
+
+console.log(`version: ${pkg.version}`)
 
 const modules = {
   cliTable: cliTable,
